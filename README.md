@@ -16,6 +16,11 @@ Whether a phase-locked schedule outperforms a random schedule under the chosen
 noise model and whether that result remains directionally stable once the model
 is anchored to measured device characteristics.
 
+Within the wider stack, this is one of the strongest transition-cadence repos.
+It does not settle the full quantum-consciousness architecture, but it can
+support the narrower claim that cadence-linked synchronization matters under the
+modeled conditions.
+
 ## Quick Start
 
 ```bash
