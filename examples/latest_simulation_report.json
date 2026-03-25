@@ -1,0 +1,12 @@
+{
+  "mode": "simulation",
+  "evidence_status": "simulation_baseline",
+  "claim_under_test": "Whether a phase-locked schedule outperforms a random schedule under an explicit model.",
+  "model_summary": {
+    "random_schedule_error": 0.014091184177806415,
+    "phase_locked_error": 0.005883851405058094,
+    "relative_error_reduction": 0.5824445035410759
+  },
+  "schema_version": "rfl.error_reduction_pulse_sync.v2",
+  "next_step": "Repeat the same schedule comparison on a real backend before treating the reduction as empirical."
+}

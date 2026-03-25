@@ -1,0 +1,24 @@
+{
+  "mode": "hardware-derived",
+  "evidence_status": "hardware_derived_model",
+  "claim_under_test": "Whether the same schedule advantage persists when the noise severity is anchored to calibration-style parameters.",
+  "noise_parameters": {
+    "mean_t1_us": 131.79999999999998,
+    "mean_t2_us": 83.16666666666667,
+    "mean_readout_error": 0.02266666666666667,
+    "mean_gate_error": 0.0011333333333333334,
+    "mean_frequency_ghz": 5.0633333333333335,
+    "mean_anharmonicity_ghz": 0.22666666666666666,
+    "mean_cross_talk": 0.0145,
+    "derived_phase_drift_rate": 0.012024048096192385,
+    "derived_amplitude_decay_rate": 0.0075872534142640375,
+    "derived_leakage_rate": 5.000000000000001e-05
+  },
+  "model_summary": {
+    "random_schedule_error": 0.003377289404965067,
+    "phase_locked_error": 0.002332991876238144,
+    "relative_error_reduction": 0.3092117386184512
+  },
+  "schema_version": "rfl.error_reduction_pulse_sync.v2",
+  "next_step": "Repeat the same schedule comparison on a real backend before treating the reduction as empirical."
+}
