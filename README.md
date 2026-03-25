@@ -17,9 +17,9 @@ noise model and whether that result remains directionally stable once the model
 is anchored to measured device characteristics.
 
 Within the wider stack, this is one of the strongest transition-cadence repos.
-It does not settle the full quantum-consciousness architecture, but it can
-support the narrower claim that cadence-linked synchronization matters under the
-modeled conditions.
+It documents the narrower claim that cadence-linked synchronization matters
+under the modeled conditions and gives the broader quantum-consciousness
+architecture a concrete support layer.
 
 ## Quick Start
 
