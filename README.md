@@ -1,8 +1,9 @@
 # ErrorReductionPulseSync
 
-This is the schedule-synchronization layer where cadence stops being theory and starts showing up in circuit error behavior.
+Schedule-linked error model built on top of Qiskit circuits and explicit noise
+assumptions.
 
-It asks whether timing alignment buys you anything real under modeled noise and calibration-style hardware assumptions:
+This repo now states its scope directly:
 
 - `simulation_baseline`: compare modeled random vs phase-locked schedules
 - `hardware_derived_model`: anchor the same comparison to calibration-style
