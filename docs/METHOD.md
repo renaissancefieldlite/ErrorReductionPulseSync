@@ -1,6 +1,6 @@
 # Method
 
-This repo is the schedule-comparison layer for cadence-linked error behavior.
+This repo is a model-comparison layer, not direct hardware evidence.
 
 The Qiskit circuits provide an ideal probability distribution. The repo then
 applies explicit noise schedules to those probabilities:
@@ -13,4 +13,4 @@ parameters such as gate error, readout error, crosstalk, and drift.
 
 That gives the project a concrete answer to a fair review objection:
 calibration-anchored modeling is stronger than an unconstrained toy parameter,
-while real backend measurement remains the next stronger lane.
+but it is still not the same thing as a real backend measurement.
